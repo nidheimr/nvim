@@ -4,6 +4,12 @@ return {
         "nvim-tree/nvim-web-devicons"
     },
     config = function()
-        require("nvim-tree").setup({})
+        require("nvim-tree").setup({
+            renderer = {
+                indent_markers = {
+                    enable = true
+                }
+            }
+        })
     end
 }

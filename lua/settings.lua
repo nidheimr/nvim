@@ -30,3 +30,4 @@ vim.opt.signcolumn = "yes"
 vim.o.clipboard = "unnamedplus"
 
 vim.cmd("autocmd BufNewFile,BufRead * setlocal formatoptions-=cro")
+vim.cmd("set whichwrap+=<,>,[,]")
