@@ -5,9 +5,17 @@ return {
     },
     config = function()
         require("nvim-tree").setup({
+            git = {
+                enable = false
+            },
             renderer = {
                 indent_markers = {
                     enable = true
+                },
+                icons = {
+                    show = {
+                        folder_arrow = false
+                    }
                 }
             }
         })
