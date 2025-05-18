@@ -1,6 +1,12 @@
 return {
-    "rebelot/kanagawa.nvim",
+    "AlexvZyl/nordic.nvim",
     config = function()
-        vim.cmd("colorscheme kanagawa")
+        require("nordic").setup({
+            transparent = {
+                bg = true,
+                float = true
+            }
+        })
+        vim.cmd("colorscheme nordic")
     end
 }
