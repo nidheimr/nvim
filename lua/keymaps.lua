@@ -22,3 +22,4 @@ vim.keymap.set("n", "<leader>i", vim.lsp.buf.implementation, opts)
 -- telescope
 vim.keymap.set("n", "<leader>f", ":Telescope find_files<CR>", opts)
 vim.keymap.set("n", "<leader>g", ":Telescope live_grep<CR>", opts)
+vim.keymap.set("n", "<leader>e", ":Telescope diagnostics<CR>", opts)

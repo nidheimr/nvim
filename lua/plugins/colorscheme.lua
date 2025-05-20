@@ -1,12 +1,7 @@
 return {
-    "AlexvZyl/nordic.nvim",
+    "sainnhe/gruvbox-material",
     config = function()
-        require("nordic").setup({
-            transparent = {
-                bg = true,
-                float = true
-            }
-        })
-        vim.cmd("colorscheme nordic")
+        vim.g.gruvbox_material_transparent_background=1
+        vim.cmd("colorscheme gruvbox-material")
     end
 }
