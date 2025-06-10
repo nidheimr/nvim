@@ -1,7 +1,10 @@
 return {
-    "sainnhe/gruvbox-material",
+    "rebelot/kanagawa.nvim",
     config = function()
-        vim.g.gruvbox_material_transparent_background=1
-        vim.cmd("colorscheme gruvbox-material")
+        require("kanagawa").setup({
+            transparent = true
+        })
+
+        vim.cmd("colorscheme kanagawa")
     end
 }

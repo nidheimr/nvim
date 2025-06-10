@@ -8,6 +8,9 @@ return {
             git = {
                 enable = false
             },
+            view = {
+                width = 32
+            },
             renderer = {
                 indent_markers = {
                     enable = true
