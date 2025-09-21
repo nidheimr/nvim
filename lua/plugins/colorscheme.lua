@@ -1,6 +1,6 @@
 return {
-    "folke/tokyonight.nvim",
+    "rebelot/kanagawa.nvim",
     config = function()
-        vim.cmd("colorscheme tokyonight")
+        vim.cmd("colorscheme kanagawa-lotus")
     end
 }
